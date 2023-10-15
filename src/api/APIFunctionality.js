@@ -5,7 +5,7 @@ const accessToken = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlZjI3MGZmZmVkNjliYzFkNDdkZT
 
 const apiKey = 'ef270fffed69bc1d47de32648ff050cd';
   
-function GeneralAPI (movieType) {
+function PopAPI (movieType) {
     const [movies, setMovie] = useState([]);
   
 
@@ -29,4 +29,4 @@ function GeneralAPI (movieType) {
     return movies;
 }
 
-export default GeneralAPI;
+export default PopAPI;

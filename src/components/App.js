@@ -1,23 +1,15 @@
-import React from 'react';
-import PageAbout from './PageAbout';
-import 'PageAbout.css';
-import Footer from './Footer';
-import 'Footer.css';
+import './App.css';
+import Nav from './Nav'
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>TABZ Movie Database</h1>
+      <header className="App-header">
       </header>
-      <nav>
-      </nav>
-      <main>
-        <PageAbout />
-      </main>
-      <Footer />
     </div>
+
   );
 }
+
 
 export default App;
